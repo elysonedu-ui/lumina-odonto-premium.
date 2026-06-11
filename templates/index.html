@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Lumina Odonto Premium | Odontologia Estética</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <!-- Premium Preloader -->
+    <div id="preloader">
+        <div class="loader-logo">LUMINA.</div>
+        <div class="loader-line"></div>
+    </div>
+
+    <!-- Background Glowing Orbs -->
+    <div class="global-glow"></div>
+
+    <!-- NAVBAR -->
+    <nav class="glass-nav">
+        <div class="logo">LUMINA.</div>
+        <div class="nav-links">
+            <a href="#sobre">A Clínica</a>
+            <a href="#equipe">Especialistas</a>
+            <a href="#servicos">Tratamentos</a>
+            <a href="#depoimentos">Depoimentos</a>
+        </div>
+        <button class="btn-schedule" onclick="document.getElementById('contato').scrollIntoView();">Agendar Consulta</button>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content fade-up">
+            <h1 class="serif">A arte de um <span>sorriso inesquecível.</span></h1>
+            <p>Odontologia estética de alto padrão e harmonização facial para quem exige excelência em cada detalhe.</p>
+            <button class="btn-primary" onclick="document.getElementById('contato').scrollIntoView();">Inicie Sua Transformação</button>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="sobre" class="about">
+        <div class="about-container">
+            <div class="about-img reveal-left"></div>
+            <div class="about-text reveal-right">
+                <div class="section-subtitle">Padrão Ouro</div>
+                <h2 class="serif">Exclusividade a favor da sua estética.</h2>
+                <p>Na Lumina, acreditamos que o seu sorriso é o seu cartão de visitas mais valioso. Nossa clínica foi projetada para oferecer uma experiência de luxo, conforto e privacidade inigualáveis.</p>
+                <div class="stats">
+                    <div class="stat-box">
+                        <h3 class="serif">3D</h3>
+                        <span>Tecnologia de Ponta</span>
+                    </div>
+                    <div class="stat-box">
+                        <h3 class="serif">+5k</h3>
+                        <span>Sorrisos Transformados</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOCTORS SECTION (NEW) -->
+    <section id="equipe" class="doctors">
+        <div class="section-subtitle fade-up">Autoridade Clínica</div>
+        <h2 class="section-title fade-up serif">Nossos Especialistas</h2>
+        
+        <div class="doctor-grid">
+            <div class="doctor-card fade-up">
+                <div class="doctor-img" style="background-image: url('../static/doctor_male.png');"></div>
+                <div class="doctor-info glass-card">
+                    <h3 class="serif">Dr. Lorenzo Silva</h3>
+                    <span>Diretor Clínico & Estética Avançada</span>
+                    <p>Referência nacional em reabilitação oral e lentes de contato dental ultrafinas.</p>
+                </div>
+            </div>
+            
+            <div class="doctor-card fade-up" style="transition-delay: 0.2s;">
+                <div class="doctor-img" style="background-image: url('../static/doctor_female.png');"></div>
+                <div class="doctor-info glass-card">
+                    <h3 class="serif">Dra. Isabella Costa</h3>
+                    <span>Especialista em Harmonização Orofacial</span>
+                    <p>Mestre em estética avançada, desenhando proporções perfeitas para o seu rosto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="servicos" class="services">
+        <div class="section-subtitle fade-up">Portfólio de Luxo</div>
+        <h2 class="section-title fade-up serif">Tratamentos Avançados</h2>
+        
+        <div class="service-grid">
+            <div class="service-card glass-card fade-up">
+                <i class="fa-solid fa-tooth service-icon"></i>
+                <h3 class="serif">Lentes de Contato</h3>
+                <p>Porcelanas ultrafinas sob medida para transformar a cor e formato com aspecto 100% natural.</p>
+            </div>
+            <div class="service-card glass-card fade-up" style="transition-delay: 0.2s;">
+                <i class="fa-solid fa-wand-magic-sparkles service-icon"></i>
+                <h3 class="serif">Harmonização</h3>
+                <p>Procedimentos estéticos avançados para realçar a beleza, contorno e simetria do seu rosto.</p>
+            </div>
+            <div class="service-card glass-card fade-up" style="transition-delay: 0.4s;">
+                <i class="fa-solid fa-gem service-icon"></i>
+                <h3 class="serif">Clareamento Laser</h3>
+                <p>Tecnologia indolor para um clareamento ultrarrápido com resultados visíveis na primeira sessão.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION (NEW) -->
+    <section id="depoimentos" class="testimonials">
+        <div class="section-subtitle fade-up">O que dizem sobre nós</div>
+        <h2 class="section-title fade-up serif">Experiências Exclusivas</h2>
+        
+        <div class="testimonial-grid">
+            <div class="testimonial-card glass-card fade-up">
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>"A experiência na Lumina é indescritível. O Dr. Lorenzo entendeu perfeitamente o que eu queria. Minhas lentes de contato ficaram com um aspecto tão natural que mudou minha autoestima."</p>
+                <div class="client-name serif">- Mariana V. <span>(Empresária)</span></div>
+            </div>
+            <div class="testimonial-card glass-card fade-up" style="transition-delay: 0.2s;">
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>"Fiz minha harmonização facial com a Dra. Isabella. O resultado foi sutil, elegante e extremamente sofisticado. O atendimento VIP e a privacidade da clínica são diferenciais raros."</p>
+                <div class="client-name serif">- Carlos E. <span>(Advogado)</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOCATION / MAPS SECTION (NEW) -->
+    <section class="location fade-up">
+        <div class="location-container glass-card">
+            <div class="location-text">
+                <div class="section-subtitle">Localização VIP</div>
+                <h2 class="serif">Venha tomar um café conosco.</h2>
+                <p><i class="fa-solid fa-location-dot"></i> Av. do Batel, 1234 - Curitiba, PR</p>
+                <p><i class="fa-solid fa-car"></i> Valet Parking Exclusivo na Porta</p>
+                <p><i class="fa-solid fa-clock"></i> Seg - Sex: 09h às 20h</p>
+            </div>
+            <div class="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115250.77114674751!2d-49.34969242967667!3d-25.495050302507856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce411e4120fd7%3A0x8e826b64d1f215d!2sCuritiba%2C%20PR!5e0!3m2!1spt-BR!2sbr!4v1718042459815!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0; border-radius: 15px; opacity: 0.8; filter: grayscale(1) invert(0.9);" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contato" class="contact">
+        <div class="contact-box glass-card fade-up">
+            <h2 class="serif">Atendimento VIP</h2>
+            <p>Nossa concierge está pronta para organizar sua agenda.</p>
+            <form id="leadForm">
+                <div class="input-group">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" id="nome" placeholder="Nome Completo" required>
+                </div>
+                <div class="input-group">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <input type="tel" id="telefone" placeholder="Seu WhatsApp" required>
+                </div>
+                <button type="submit" class="btn-primary w-100">Solicitar Contato VIP</button>
+            </form>
+            <div id="successMsg" class="success-msg">
+                <i class="fa-solid fa-check-circle"></i> Solicitação VIP enviada! Aguarde nosso contato.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo">LUMINA.</div>
+        <p>Estética & Odontologia de Luxo</p>
+        <p style="font-size: 11px; margin-top: 15px; color: #555;">Sistema de Agendamento by RB Media Agency</p>
+    </footer>
+
+    <!-- INTERACTION SCRIPTS -->
+    <script>
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('preloader').style.opacity = '0';
+                setTimeout(() => { document.getElementById('preloader').style.display = 'none'; }, 500);
+            }, 1000);
+        });
+
+        const observerOptions = { root: null, rootMargin: '0px', threshold: 0.15 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-up, .reveal-left, .reveal-right').forEach(el => {
+            observer.observe(el);
+        });
+
+        document.getElementById('leadForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('button');
+            const nome = document.getElementById('nome').value;
+            
+            btn.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Conectando...';
+            
+            setTimeout(() => {
+                // Esconde o formulário e mostra a mensagem de sucesso
+                document.getElementById('leadForm').style.display = 'none';
+                document.getElementById('successMsg').style.display = 'flex';
+
+                // Redireciona para o WhatsApp do Richard
+                const mensagem = encodeURIComponent(`Oi Richard, quero um site igual a esse!`);
+                window.open(`https://wa.me/5511914433981?text=${mensagem}`, '_blank');
+
+            }, 800);
+        });
+    </script>
+</body>
+</html>
